@@ -1,8 +1,8 @@
-# 🌊 CareerSea | AI Career Navigator
+# 🌊 Career Discovery | AI Career Navigator
 
-**Stop guessing, start sailing.** CareerSea is a professional-grade, AI-powered career discovery engine that generates hyper-personalized roadmaps based on your unique interests, values, and problem-solving style.
+**Stop guessing, start sailing.** Career Discovery is a professional-grade, AI-powered career discovery engine that generates hyper-personalized roadmaps based on your unique interests, values, and problem-solving style.
 
-🔗 **Live Demo:** [https://careersea.in](https://careersea.in)
+🔗 **Live Demo:** [https://careerdiscovery.in](https://careerdiscovery.in)
 
 ---
 
@@ -48,8 +48,8 @@
 
 ### Infrastructure & CI/CD
 
-- **Edge Compute:** Cloudflare Workers (`careersea-api` on `api.careersea.in`)
-- **Frontend Hosting:** Cloudflare Pages (`careersea-frontend` on `careersea.in`)
+- **Edge Compute:** Cloudflare Workers (`career-discovery-api` on `api.careerdiscovery.in`)
+- **Frontend Hosting:** Cloudflare Pages (`career-discovery-frontend` on `careerdiscovery.in`)
 - **DNS & SSL:** Cloudflare Edge DNS
 - **Database:** Supabase PostgreSQL
 - **CI/CD:** GitHub Actions via `cloudflare/wrangler-action@v3`
@@ -129,7 +129,7 @@ For manual deployment or initial configuration, follow the **[Cloudflare Setup G
 
 ## 👥 Team
 
-CareerSea was developed as a collaborative team project.
+Career Discovery was developed as a collaborative team project.
 
 **Project Lead**
 - **Rishad Tharayil** — led the project and handled the majority of the implementation and development.
@@ -146,7 +146,7 @@ The project represents the combined efforts and contributions of all team member
 
 ## 📚 Project Purpose
 
-CareerSea was developed to help students and individuals explore potential career directions and understand the skills and learning paths associated with different career options.
+Career Discovery was developed to help students and individuals explore potential career directions and understand the skills and learning paths associated with different career options.
 
 The platform combines:
 
@@ -195,7 +195,7 @@ Distributed under the MIT License. See `LICENSE` for more information.
 
 <div align="center">
 
-### 🌊 CareerSea
+### 🌊 Career Discovery
 **Stop guessing, start sailing.**
 
 Explore career possibilities, discover your path, and build your roadmap.
