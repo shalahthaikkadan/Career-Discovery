@@ -146,23 +146,7 @@ The project represents the combined efforts and contributions of all team member
 
 ---
 
-## 📚 Project Purpose
 
-CareerSea was developed to help students and individuals explore potential career directions and understand the skills and learning paths associated with different career options.
-
-The platform combines:
-
-- Career assessment
-- Generative AI
-- Personalized career pathways
-- Learning roadmaps
-- Study resources
-- AI-based mentoring
-- Modern web technologies
-
-...to provide an interactive career discovery experience.
-
----
 
 ## 🔒 Security
 
