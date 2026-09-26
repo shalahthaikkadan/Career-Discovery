@@ -1,17 +1,5 @@
 
 
-README (3).md
-README (3).md
-204 lines
-MD
-
-
-
-README (3).md
-6.19 KB •204 lines
-•
-Formatting may be inconsistent from source
-
 # 🌊 CareerSea | AI Career Navigator
 
 **Stop guessing, start sailing.** CareerSea is a professional-grade, AI-powered career discovery engine that generates hyper-personalized roadmaps based on your unique interests, values, and problem-solving style.
