@@ -1,0 +1,11 @@
+django
+djangorestframework
+django-cors-headers
+requests
+gunicorn
+uvicorn
+whitenoise
+psycopg2-binary
+djangorestframework-simplejwt
+dj-database-url
+google-cloud-aiplatform

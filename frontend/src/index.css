@@ -1,0 +1,38 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-bg text-text min-h-screen overflow-x-hidden;
+    background-image: radial-gradient(theme('colors.text.light') 1px, transparent 1px);
+    background-size: 24px 24px;
+    font-family: 'Inter', 'Outfit', sans-serif;
+  }
+
+  h1 { @apply font-extrabold tracking-tighter leading-[1.1] text-[3.5rem] mb-4; }
+  h2 { @apply font-extrabold tracking-tight text-[2.5rem] mb-4; }
+  h3 { @apply font-extrabold tracking-tight text-[1.75rem] mb-4; }
+  p { @apply leading-relaxed mb-6 text-[1.125rem]; }
+
+  @media (max-width: 768px) {
+    h1 { @apply text-[2.25rem]; }
+    h2 { @apply text-[1.75rem]; }
+    h3 { @apply text-[1.375rem]; }
+    p { @apply text-base; }
+  }
+}
+
+@layer components {
+  .pop-card {
+    @apply bg-surface border-pop border-text rounded-pop p-8 shadow-pop transition-all duration-200 hover:-translate-x-[2px] hover:-translate-y-[2px] hover:shadow-pop-hover;
+  }
+
+  .pop-button {
+    @apply inline-flex items-center justify-center gap-2 bg-primary text-text font-extrabold text-lg px-8 py-3 border-pop border-text rounded-pop shadow-pop transition-all duration-150 uppercase tracking-wider hover:-translate-x-[2px] hover:-translate-y-[2px] hover:shadow-pop-hover active:translate-x-0 active:translate-y-0 active:shadow-none;
+  }
+
+  .pop-input {
+    @apply w-full px-4 py-3.5 font-semibold border-pop border-text rounded-pop bg-surface shadow-pop-sm transition-all duration-200 outline-none focus:shadow-pop focus:-translate-x-[1px] focus:-translate-y-[1px];
+  }
+}

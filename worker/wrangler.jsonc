@@ -1,0 +1,22 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "careersea-api",
+  "main": "src/index.ts",
+  "compatibility_date": "2025-02-01",
+  "compatibility_flags": ["nodejs_compat"],
+  "vars": {
+    "AI_PROVIDER": "aistudio",
+    "AISTUDIO_MODEL": "gemini-3.1-flash-lite",
+    "OPENROUTER_MODEL": "google/gemini-2.0-flash-001",
+    "SUPABASE_URL": "https://qhrmenvunfcykvmpyshb.supabase.co"
+  },
+  "routes": [
+    {
+      "pattern": "api.careersea.in",
+      "custom_domain": true
+    }
+  ],
+  "observability": {
+    "enabled": true
+  }
+}

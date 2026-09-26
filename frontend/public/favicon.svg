@@ -1,0 +1,19 @@
+<svg width="256" height="256" viewBox="0 0 256 256" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="256" height="256" rx="48" fill="#F5D74E"></rect>
+
+  <!-- Compass needle -->
+  <g transform="translate(128 128)">
+    <!-- Black needle -->
+    <polygon points="0,-78 26,0 0,78 -26,0" fill="#111111"></polygon>
+    
+    <!-- Cyan highlight -->
+    <polygon points="0,-78 14,0 0,28 -14,0" fill="#58D7E5"></polygon>
+    
+    <!-- Center circle -->
+    <circle cx="0" cy="0" r="18" fill="#ffffff" stroke="#111111" stroke-width="10"></circle>
+  </g>
+
+  <!-- Small navigation dot -->
+  <circle cx="58" cy="58" r="18" fill="#111111"></circle>
+</svg>
